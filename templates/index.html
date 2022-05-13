@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %} Secret number game {% endblock title %}
+
+{% block content %}
+
+    <div class="container">
+        <form method="post" action="/">
+            <label for="guess">Number is between 1 and 30!</label>
+            <input type="text" name="player-guess" id="guess">
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+{% endblock content %}

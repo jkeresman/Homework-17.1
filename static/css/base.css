@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #236ddc, #00a0fe, #00ebff, #00e38a, #b2f221);
+}
+
+.game-name{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    background-color: rgba(0,0,0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0 3px 12px;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.game-name h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.container{
+    background-color: #000;
+    background-color: rgba(0,0,0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.56) 0 17px 45px 4px;
+    color: #fff;
+    padding: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container h2{
+    margin: 12px 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form input{
+    margin: 25px 0;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+form label{
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 7px 23px;
+    text-decoration: none;
+    transition: background-color 0.4s ease;
+    margin: 12px 0;
+}
+
+.btn a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+
