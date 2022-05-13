@@ -18,8 +18,8 @@ def index():
 
     elif request.method == "POST":
 
-        player_guess = request.form.get("player-guess")
-        secret_number = request.cookies.get("secret_number")
+        player_guess = int(request.form.get("player-guess"))
+        secret_number = int(request.cookies.get("secret_number"))
 
         response = make_response(render_template("play_again.html",
                                                  player_guess=player_guess,
