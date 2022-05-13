@@ -25,7 +25,6 @@ def index():
                                                  player_guess=player_guess,
                                                  secret_number=secret_number,
                                                  ))
-        print(secret_number)
 
         if player_guess == secret_number:
             response.set_cookie("secret_number", str(random.randint(1, 30)))

@@ -23,7 +23,9 @@
 
             {% if player_guess > secret_number %}
                 <p>Try something smaller!</p>
-            {% else %}
+            {% endif %}
+
+            {% if player_guess < secret_number %}
                 <p>Try something bigger!</p>
             {% endif %}
 
